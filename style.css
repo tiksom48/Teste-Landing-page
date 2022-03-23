@@ -8,11 +8,36 @@
 }
 
 body {
- font-size: 100%;
- background: linear-gradient(180deg, rgba(197, 6, 6, 0.905) 1%, rgba(209, 5, 5, 0.755) 25%, #0d02d0 100%, #e4dedee3 100%);
-border: 1px solid #131312;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(12, 12, 12, 0.981);   
+    font-size: 100%;
+    background: linear-gradient(180deg, rgba(197, 6, 6, 0.905) 1%, rgba(209, 5, 5, 0.755) 25%, #0d02d0 100%, #e4dedee3 100%);    
+    border: none;
+}
+
+.CabecalhoHeader {
+   height: 300px;
+
+}
+
+.CabecalhoContainer {
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.ImageContainer {
+    height: 200px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabecalho-imagem {
+    height: 350px;
+   
 }
 
 .cabecalho {
@@ -23,13 +48,19 @@ justify-content: space-around;
 padding: 15px;
 }
 
-.cabecalho-imagem {
-    height: 250px;
-}
 
 .cabecalho-menu {
   display: flex; 
   gap: 100px; 
+}
+
+@media (max-width: 430px){
+    .cabecalho-menu {
+        width: 30%;
+        padding: 20px -10px;
+        display: block;
+        justify-content: space-around;
+    }
 }
 
 .cabecalho-menu-item {
@@ -51,6 +82,15 @@ padding: 15px;
     justify-content: space-around;
 
 }
+
+@media (max-width: 560px) {
+
+.conteudo-principal {
+    display: inline-block;
+   
+}
+}
+
 .conteudo-principal-escrito {
  display: flex; 
  flex-direction: column; 
@@ -83,15 +123,28 @@ padding: 15px;
      font-size: 20px; 
      color: #ffffff;
  }
+ 
 
 .conteudo-principal-escrito-botao:hover {
   background-color: rgba(25, 10, 158, 0.905);  
-}
 
+}
  .conteudo-principal-imagem {
   height: 530px;
   width: 220px;   
  }
+
+ 
+@media (max-width: 560px) {
+
+    .conteudo-principal-imagem {
+       width: 100%;
+       padding: 20px 0;
+       display: flex;
+       justify-content: center;
+    }
+
+}
 
  .conteudo-secundario{
      display: flex;
@@ -100,6 +153,16 @@ padding: 15px;
      gap: 10px;
      margin-top: 48px;
  }
+
+@media (max-width: 430px) {
+    .conteudo-secundario{
+        width: 100%;
+        padding: 0px 0;
+        display: block;
+        
+    }
+    
+}
 
  .conteudo-secundario-titulo {
      border-top: 0.5px solid rgba(255, 242, 231, 1);
@@ -118,13 +181,33 @@ padding: 15px;
     color:rgba(255, 242, 231, 1);
  }
 
+ @media (max-width: 440px) {
+    .conteudo-secundario-paragrafo{
+        width: 100%;
+        padding: 0px -10px;
+        display: center;
+    }
+}
+
  .rodape {
   padding: 20px;
   border-top: 0.5px solid #000000;
- }
+}
 
- .rodape-imagem {
-  height: 100px;
-  display: block;
-  margin: 0 auto;   
- }
+@media (max-width: 380px) {
+    .rodape-imagem {
+        max-width: 300px;
+        
+
+    }
+
+}
+
+.rodape-imagem {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;   
+    
+
+}
