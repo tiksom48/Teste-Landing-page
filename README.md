@@ -6,7 +6,7 @@
     <meta name="description" content="Criação de uma Landing Page, Teste de conhecimento e aprendizado">
     Radio Retro - Dev @jonathanpatrich
 
-<img class="cabecalho-imagem" src="logoo 1.svg" alt="Logo da radio">
+<img class="cabecalho-imagem" src="./img/logoo 1.svg" alt="Logo da radio">
 <a class="cabecalho-menu-item" href="https://www.radioretronaweb.com/">Site -</a>
 <a class="cabecalho-menu-item" href="https://www.radioretronaweb.com/programacao/">Programação</a>
 <a class="cabecalho-menu-item" href="https://api.whatsapp.com/send/?phone=5548998182616&text&app_absent=0">- Contato</a>
@@ -23,5 +23,5 @@
 <p class="conteudo-secundario-paragrafo">2. Acesse nosso <strong>site</strong> e conheça nossos parceiros</p>
 
   <footer class="rodape">
-   <img class="rodape-imagem" src="amigos.svg">
+   <img class="rodape-imagem" src="./img/amigos.svg">
   </footer>
